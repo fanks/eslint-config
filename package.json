@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-magstandard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Backend linting rules",
   "main": "index.js",
   "files": [
