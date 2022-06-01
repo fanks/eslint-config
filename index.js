@@ -1,6 +1,6 @@
-const rule_import = require('./lib/import');
-const rule_ts = require('./lib/typescript');
-const rule_prettier = require('./lib/prettier');
+const rule_import = require('./lib/import')
+const rule_ts = require('./lib/typescript')
+const rule_prettier = require('./lib/prettier')
 
 module.exports = {
   env: { jest: true, browser: true, es6: true, node: true },
@@ -16,7 +16,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'log', '@typescript-eslint', 'import'],
   rules: {
-    'prettier/prettier': ['error', rule_prettier],
+    'prettier/prettier': ['warn', rule_prettier],
     ...rule_ts,
     ...rule_import
   },
@@ -29,4 +29,4 @@ module.exports = {
     }
   },
   ignorePatterns: ['node_modules/', 'dist/', 'build/']
-};
+}
