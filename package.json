@@ -1,0 +1,32 @@
+{
+  "name": "@ml/eslint-config-backend",
+  "version": "1.0.0",
+  "description": "Backend linting rules",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js",
+    "rules"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanks/eslint-config-backend"
+  },
+  "peerDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "prettier": "^2.6.2",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "keywords": [],
+  "author": "Estrid tech team",
+  "license": "ISC"
+}
