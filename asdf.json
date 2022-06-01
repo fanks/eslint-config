@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-magstandard",
+  "version": "1.0.2",
+  "description": "Backend linting rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanks/eslint-config-backend"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-log": "^1.2.7",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.15.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "files": [
+    "lib/**",
+    "index.js",
+    ".eslintrc.js",
+    "LICENSE",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
