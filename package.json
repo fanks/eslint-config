@@ -1,5 +1,5 @@
 {
-  "name": "@ml/eslint-config-backend",
+  "name": "eslint-config-magstandard",
   "version": "1.0.0",
   "description": "Backend linting rules",
   "main": "index.js",
@@ -22,7 +22,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-sonarjs": "^0.13.0",
     "prettier": "^2.6.2",
     "tslint-config-prettier": "^1.18.0"
   },

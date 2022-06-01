@@ -5,8 +5,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:prettier/recommended",
-    "plugin:sonarjs/recommended"
+    "plugin:prettier/recommended"
   ],
   rules: {
     ...base
