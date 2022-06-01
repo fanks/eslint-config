@@ -1,32 +1,32 @@
-const rule_import = require("./lib/import")
-const rule_ts = require("./lib/typescript")
-const rule_prettier = require("./lib/prettier")
+const rule_import = require('./lib/import');
+const rule_ts = require('./lib/typescript');
+const rule_prettier = require('./lib/prettier');
 
 module.exports = {
   env: { jest: true, browser: true, es6: true, node: true },
   extends: [
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'plugin:prettier/recommended'
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: 'module'
   },
-  plugins: ["log", "@typescript-eslint", "import"],
+  plugins: ['log', '@typescript-eslint', 'import'],
   rules: {
-    "prettier/prettier": ["error", rule_prettier],
+    'prettier/prettier': ['error', rule_prettier],
     ...rule_ts,
     ...rule_import
   },
   settings: {
-    "import/resolver": {
+    'import/resolver': {
       node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-        moduleDirectory: ["node_modules", "src/"]
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src/']
       }
     }
   },
-  ignorePatterns: ["node_modules/", "dist/", "build/"]
-}
+  ignorePatterns: ['node_modules/', 'dist/', 'build/']
+};
