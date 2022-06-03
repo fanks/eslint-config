@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-magstandard",
-  "version": "1.0.14",
+  "version": "1.0.12",
   "main": "index.js",
   "repository": "git@github.com:fanks/eslint-config-magtest.git",
   "author": "",
@@ -22,7 +22,6 @@
     "lib/**",
     "index.js",
     ".eslintrc.js",
-    "LICENSE",
     "package.json"
   ]
 }

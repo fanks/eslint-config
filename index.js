@@ -10,10 +10,6 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module'
-  },
   plugins: ['@typescript-eslint', 'log', '@typescript-eslint', 'import'],
   rules: {
     'prettier/prettier': ['warn', rule_prettier],
